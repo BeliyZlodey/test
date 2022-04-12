@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>404</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #e2e2e2;
+        }
+        .not-found-page {
+            position: absolute;
+            display: block;
+            width: 100%;
+            top: 50%;
+            padding: 30px 10px;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: #868686;
+        }
+
+        .not-found-page__description, .not-found-page__title, .not-found-page__link {
+            margin: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        .not-found-page__title {
+            display: block;
+            margin-bottom: 10px;
+
+            line-height: 1;
+            font-size: 5em;
+        }
+
+        .not-found-page__description {
+            display: block;
+            margin-bottom: 30px;
+
+            font-size: 1.5em;
+        }
+
+        .not-found-page__link {
+            text-decoration: none;
+            font-weight: bold;
+            color: #c3212f;
+        }
+    </style>
+</head>
+<body>
+<div class="not-found-page">
+    <h1 class="not-found-page__title">404</h1>
+    <p class="not-found-page__description">Страницы не существует</p>
+    <a href="/" class="not-found-page__link">Главная</a>
+</div>
+</body>
+</html>
